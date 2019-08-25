@@ -1,7 +1,7 @@
 job('react-docker') {
 
   scm {
-      git('git@github.com:Eli10/docker-react.git') { node ->
+      git('https://github.com/Eli10/docker-react.git') { node ->
 
         node / gitConfigName('DSL User')
         node / gitConfigEmail('eaugustine@securityscorecard.io')
